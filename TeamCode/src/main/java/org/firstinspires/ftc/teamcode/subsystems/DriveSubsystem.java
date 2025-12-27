@@ -45,7 +45,7 @@ public class DriveSubsystem extends SubsystemBase {
         ));
 
     }
-//mm
+//mmm
     public void MecanumDrive(double driveMotion, double turnMotion, double strafeMotion){
         double speedReducer = 0.5;
         double controlledCap = Math.max(Math.abs(driveMotion)+ Math.abs(turnMotion)+ Math.abs(strafeMotion), 1);
