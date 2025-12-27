@@ -14,8 +14,8 @@ public class MechanumDrive extends CommandBase {
     private DoubleSupplier driveMotion, turnMotion, strafeMotion; //to collect joystick input
 
     private RevHubOrientationOnRobot revHubOrientationOnRobot = new RevHubOrientationOnRobot(
-            RevHubOrientationOnRobot.LogoFacingDirection.FORWARD,
-            RevHubOrientationOnRobot.UsbFacingDirection.UP
+            RevHubOrientationOnRobot.LogoFacingDirection.UP,
+            RevHubOrientationOnRobot.UsbFacingDirection.FORWARD
     );
 
     public MechanumDrive(DriveSubsystem driveSubsystem, DoubleSupplier driveMotion,
